@@ -1,0 +1,44 @@
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "main"}}
+
+<div id="main">
+  <div id="hero">
+    <h1>{{.Title}}</h1>
+    <p>QMSTR creates an integrated Open Source toolchain that implements
+industry best practises of license compliance management.</p>
+  </div>
+  <p>
+  <div id="qmstr">
+    <h2> Features </h2>
+    <div class="row gutters ">
+      <div class="col col-3 item">
+        <figure>
+          <img alt="Integration CI/CD" height="80" src="logos/noun_1178847_cc.png" width="80">
+        </figure>
+        <p>Integration into DevOps CI/CD cycles.</p>
+      </div>
+      <div class="col col-3 item">
+        <figure>
+          <img alt="Software Build Systems" height="80" src="logos/noun_427491_cc.png" width="80">
+        </figure>
+        <p>Native support for all major software build systems.</p>
+      </div>
+      <div class="col col-3 item">
+        <figure>
+          <img alt="Compliance Report" height="80" src="logos/noun_543025_cc.png" width="80">
+        </figure>
+        <p>Customisable compliance report generation and continous integration feedback.</p>
+      </div>
+      <div class="col col-3 item">
+        <figure>
+          <img alt="Tools Supported" height="80" src="logos/noun_619279_cc.png" width="80">
+        </figure>
+        <p>Integration of other Linux Foundation Open Compliance projects, like OpenChain and SPDX.</p>
+      </div>
+    </div>
+  </div>
+</p>
+
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}
