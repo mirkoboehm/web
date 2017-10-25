@@ -8,8 +8,8 @@ toc = false
 +++
 ## Legal Disclosure
 
-Quartermaster is a project of Endocode AG see [Imprint](https://endocode.com/impressum/).
-Quartermaster aims at becoming a Linux Foundation collaborative project.
+Quartermaster is a project of [Endocode AG](https://endocode.com/impressum/).
+Quartermaster aims at becoming a [Linux Foundation](https://www.linuxfoundation.org) collaborative project.
 
 ## Indication of source for images and graphics
 * Compliance by Gregor Cresnar from the Noun Project is licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
