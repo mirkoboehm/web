@@ -1,0 +1,13 @@
+baseURL = "qmstr.org"
+languageCode = "en-us"
+title = "Quartermaster (QMSTR)"
+theme = "kube"
+description = "Quartermaster (QMSTR) is an Open Source Compliance Tool"
+Paginate = 4
+[Params]
+  RSSLink = "/index.xml"
+  author = "Endocode AG" # add your company name
+  github = "https://github.com/QMSTR" # add your github profile name
+  twitter = "https://twitter.com/fosscompliance" # add your twitter profile
+  slack = "https://join.slack.com/t/qmstr/shared_invite/enQtMjYxNjUwNDIzNTcyLTcwNzQ4NzZhOTZiYTRjNzExMTUxM2VmN2I5MTRjMDM1OGY2ODBlODYxNDViMjMyNDBiODM0M2I2M2Q3OGQxN2U"
+  email = "mirko@endocode.com"
